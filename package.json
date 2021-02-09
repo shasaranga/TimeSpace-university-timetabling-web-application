@@ -1,0 +1,17 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass style.scss web/css/styles.css",
+    "admin_sass": "node-sass adminStyle.scss web/css/controlPanelStyle.css"
+
+  },
+  "author": "",
+  "license": "ISC"
+}

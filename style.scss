@@ -1,0 +1,434 @@
+$body-bg: #ffffff;
+$body-color: #ffffff;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+//.search-form {
+//  width: 450px;
+//  margin: auto;
+//}
+body{
+  font-family: "Poppins", Arial, sans-serif;
+}
+/***************************************************** Nav Starts ********************************************************************/
+.brandHalf{
+  color: #f7b71d;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+.nav-link.active {
+  color: rgb(255, 166, 8) !important;
+}
+.bg-dark{
+  transition: 750ms ease;
+  //background: rgb(35, 34, 34) !important;
+  background: #23222200 !important;
+}
+.bg-dark.scrolled{
+
+  background: #ffffff !important;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+  .nav-link:hover, .nav-link:focus {
+    color: rgb(255, 166, 8) !important;
+  }
+  .nav-link.active {
+    color: rgb(255, 166, 8) !important;
+  }
+  .navbar-brand{
+    color: rgb(0, 0, 0) !important;
+  }
+  .nav-link {
+    color: rgb(0, 0, 0) !important;
+  }
+}
+.onScrollNavLinkColorChange.onScrollNav{
+  color: rgb(246, 246, 246) !important;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: rgb(255, 166, 8) !important;
+}
+
+.menuTag{
+  position: relative;
+  top: 2px;
+}
+.logo{
+  width: 77px;
+  height: 63px;
+}
+
+.navbar-toggler-icon {
+  background-image: escape-svg($navbar-light-toggler-icon-bg);
+}
+
+.bg-darks {
+  transition: 750ms ease;
+  background: #171717f5 !important;
+}
+@media (max-width: 991.98px){
+  .bg-dark {
+    transition: 750ms ease;
+    background: #000000 !important;
+  }
+
+  .bg-dark.scrolled {
+    transition: 750ms ease;
+    background: #000000 !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+  }
+  .bg-dark.scrolled .navbar-brand {
+    color: #ffffff !important;
+  }
+  .menuTag {
+    position: relative;
+    top: 2px;
+    color:white !important;
+  }
+  .bg-dark.scrolled .nav-link {
+    color: #ffffff !important;
+  }
+  .bg-dark.scrolled .nav-link.active {
+    color: #ffa608 !important;
+  }
+  .nav-link.active {
+    color: rgb(255, 166, 8) !important;
+  }
+  .bg-darks{
+    transition: 750ms ease;
+    background: #000000 !important;
+  }
+  .bg-darks.scrolled > .navbar-brand {
+    color: #ffffff !important;
+  }
+  .bg-darks > .menuTag {
+    position: relative;
+    top: 2px;
+    color:white !important;
+  }
+  .bg-dark.scrolled > .nav-link {
+    color: #ffffff !important;
+  }
+  .bg-dark.scrolled > .nav-link.active {
+    color: #ffa608 !important;
+  }
+  .bg-darks > .nav-link.active {
+    color: rgb(255, 166, 8) !important;
+  }
+}
+/***************************************************** Nav Ends ********************************************************************/
+
+/**************************************************** Hero Section Starts ***********************************************************/
+.hero{
+
+  width: 100%;
+  height: 750px;
+  position: inherit;
+  //noinspection CssUnknownTarget
+  background-image:  url("../images/ford.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.h-txt{
+  height: 750px;
+}
+
+
+.overlay{
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  height: 750px;
+}
+//@media screen and (max-width: 580px) {
+//  .bg-dark{
+//    background: #005cbf !important;
+//  }
+//}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10% 2%;
+}
+//.form-group .select-wrap {
+//  position: relative;
+//}
+.search-form {
+  background: #fff;
+  padding: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 31px -21px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 0px 10px 31px -21px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 10px 31px -21px rgba(0, 0, 0, 0.33);
+}
+
+.search-form h2 {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.search-form label.label {
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0.9rem;
+}
+.search-form .form-group .btn {
+  width: 100%;
+  display: block !important;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.btn.btn-primary {
+  background: #fc983c !important;
+  border: 1px solid #fc983c !important;
+  color: #fff !important;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.form-group{
+  margin-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+.searchButton{
+  margin-top:45px;
+}
+/**************************************************** Hero Section Ends ***********************************************************/
+
+/**************************************************** Registration Form Starts ***********************************************************/
+.registrationFormWrappper{
+
+  width: 100%;
+  //height: 100%;
+  position: inherit;
+  //noinspection CssUnknownTarget
+  background-image:  url("../images/ford.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.register-form{
+
+  padding: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  /* border-radius: 5px; */
+  -webkit-box-shadow: 0px 10px 31px -21px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 0px 10px 31px -21px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 10px 31px -21px rgba(0, 0, 0, 0.33);
+  display: table-cell;
+}
+.register-form h2 {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+}
+.register-form label.label {
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0.9rem;
+}
+
+.nicLineStarts{
+  padding-top: 10px;
+}
+.form-control{
+  font-size: 13px;
+}
+.custom-file-label{
+  font-size: 13px;
+}
+//noinspection CssUnknownTarget
+.regImage{
+  background-image: url(../images/regImage2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 400px; */
+  width: 29.1%;
+  display: table-cell;
+}
+.card-wrapper{
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 100%;
+  display: table;
+  background-color: white;
+}
+.heading-section .subheading {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+  color: #fc983c;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.mb-2, .my-2 {
+  margin-bottom: 0.5rem !important;
+}
+h2,.h2 {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  font-family: inherit;
+}
+/**************************************************** Registration Form Ends ***********************************************************/
+/**************************************************** Login Form Starts ***********************************************************/
+.loginFormWrappper {
+  width: 100%;
+  position: inherit;
+  background-color: #000000cf;
+  /* background-image: url(../images/ford.jpg); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+}
+bColor{
+  background-color: #000000cf;
+}
+.overlays {
+  display: block;
+  /* background: rgba(0, 0, 0, 0.6); */
+  /* height: 750px; */
+}
+.login-form{
+
+  padding: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  /* border-radius: 5px; */
+  -webkit-box-shadow: 0px 10px 31px -21px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 0px 10px 31px -21px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 10px 31px -21px rgba(0, 0, 0, 0.33);
+  display: table-cell;
+}
+.login-form h2 {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+}
+.login-form label.label {
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0.9rem;
+}
+.loginImage{
+  background-image: url(../images/loginImg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 400px; */
+  width: 56.1%;
+  display: table-cell;
+}
+
+
+
+
+/**************************************************** Login Form Ends ***********************************************************/
+
+/*.verticalNavWrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}*/
+.verticalNavWrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 100vh;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+}
+//.ftco-no-pb {
+//  padding-bottom: 0;
+//}
+//.ftco-no-pt {
+//  padding-top: 0;
+//}
+//.ftco-section {
+//  padding: 6em 0;
+//  position: relative;
+//}
+//.services-section {
+//  position: relative;
+//}
+//section {
+//  display: block;
+//}
+
+//@media (min-width: 1200px)
+//.container {
+//  max-width: 1140px;
+//}
+//@media (min-width: 992px)
+//.container {
+//  max-width: 960px;
+//}
+//@media (min-width: 768px)
+//.container {
+//  max-width: 720px;
+//}
+//@media (min-width: 576px){
+//  .container {
+//    max-width: 540px;
+//  }
+//}
+//
+//.container {
+//  width: 100%;
+//  padding-right: 15px;
+//  padding-left: 15px;
+//  margin-right: auto;
+//  margin-left: auto;
+//}
