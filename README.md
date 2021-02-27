@@ -16,6 +16,7 @@
     timetabler - TIxxxx@domain.com
         
     admin - xxxxx@domain.com</small>
+- **Logout**
 
 **<U>ADMIN LEVEL FEATURES
 </U>**
@@ -100,7 +101,7 @@
 
 - **Search Lecturer Timetable**
 
-- **Logout**
+
 
 
 
