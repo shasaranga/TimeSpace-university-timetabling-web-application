@@ -1,5 +1,9 @@
 ## Project High Level Diagram
-![Project High Level Diagram](readMeResources/Student_Timetable_high_Level.png)
+
+<img src="readMeResources/Student_Timetable_high_Level.png" alt="Login"
+	title="Login" width="350" height="400" />
+
+<!--![Project High Level Diagram](readMeResources/Student_Timetable_high_Level.png)-->
 
 
 ## 1. Web Application Features
