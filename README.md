@@ -1,7 +1,7 @@
 ## Project High Level Diagram
 
 <img src="readMeResources/Student_Timetable_high_Level.png" alt="Login"
-	title="Login" width="350" height="400" />
+	title="Project Graphical Representation" width="350" height="400" />
 
 <!--![Project High Level Diagram](readMeResources/Student_Timetable_high_Level.png)-->
 
