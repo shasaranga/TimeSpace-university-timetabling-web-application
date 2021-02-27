@@ -108,12 +108,17 @@
 ## 2. Web Application Overview
 
 **Login View** 
-    
-  ![LoginView](readMeResources/LoginView.gif)
+
+<img src="readMeResources/LoginView.gif" alt="Login"
+	title="Login" width="600" height="310" />
+  
+  <!--![LoginView](readMeResources/LoginView.gif)-->
     
 o Search Student Timetable
 
-![](readMeResources/Search%20Student%20Timetable.gif)
+<img src="readMeResources/Search%20Student%20Timetable.gif" alt="Search_Student_Timetable"
+	title="Search Student Timetable" width="600" height="310" />
+<!--![](readMeResources/Search%20Student%20Timetable.gif)-->
     
 
 
@@ -122,11 +127,15 @@ o Manage Students
 
 *  Add a New Student
 
-![RegisterNewStudent](readMeResources/RegisterNewStudent.gif)
+<img src="readMeResources/RegisterNewStudent.gif" alt="Add_a_New_Student"
+	title="Add a New Student" width="600" height="310" />
+<!--![RegisterNewStudent](readMeResources/RegisterNewStudent.gif)-->
 
 *  View / Edit / Delete a Particular Student
 
-![ViewEditDeleteStudent](readMeResources/ViewEditDeleteStudent.gif)
+<img src="readMeResources/ViewEditDeleteStudent.gif" alt="View_Edit_Delete_Student"
+	title="View Edit Delete Student" width="600" height="310" />
+<!--![ViewEditDeleteStudent](readMeResources/ViewEditDeleteStudent.gif)-->
 
 
 
